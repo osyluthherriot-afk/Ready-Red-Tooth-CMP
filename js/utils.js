@@ -2,6 +2,8 @@
 
 // in deployment, `IS_DEPLOYED = "<version number>";` should be set below.
 globalThis.IS_DEPLOYED = "2.25.4";
+// Load all game data from the official 5etools CDN via jsdelivr (avoids needing to host large data files)
+globalThis.RENDERER_BASE_URL = "https://cdn.jsdelivr.net/gh/5etools-mirror-3/5etools-src@main/";
 globalThis.VERSION_NUMBER = /* 5ETOOLS_VERSION__OPEN */"2.25.4"/* 5ETOOLS_VERSION__CLOSE */;
 globalThis.DEPLOYED_IMG_ROOT = undefined;
 // for the roll20 script to set

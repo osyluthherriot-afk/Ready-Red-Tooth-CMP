@@ -36,7 +36,7 @@
 		"test": "npm run test:js && npm run test:unit && npm run test:css && npm run test:data",
 		"lint": "npm run lint:js && npm run lint:css && npm run lint:data",
 		"build:css": "sass --style=compressed scss/:css/ && node node/rm.js css/includes/ css/vars/",
-		"build:cf": "mkdir -p dist && cp -r css data homebrew js lib dist/ && cp *.html *.webmanifest *.svg *.xml *.png dist/ 2>/dev/null || true",
+		"build:cf": "mkdir -p dist && cp -r css homebrew js lib dist/ && cp *.html *.webmanifest *.svg *.xml *.png dist/ 2>/dev/null || true",
 		"build:seo": "node node/generate-seo.js",
 		"build:sw": "node node/build-sw.mjs",
 		"build:sw:prod": "node node/build-sw.mjs prod",

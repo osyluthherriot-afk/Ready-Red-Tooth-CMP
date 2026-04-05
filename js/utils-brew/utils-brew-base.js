@@ -341,13 +341,13 @@ export class BrewUtil2Base {
 
 	async _pGetBrew_pGetLocalBrew_ () {
 		// auto-load from `prerelease/` and `homebrew/`, for custom versions of the site
-		const indexLocal = await DataUtil.loadJSON(`${Renderer.get().baseUrl}${this._PATH_LOCAL_INDEX}`);
+		const indexLocal = await DataUtil.loadJSON(this._PATH_LOCAL_INDEX);
 		if (!indexLocal?.toImport?.length) return this._cache_brewsLocal = [];
 
 		const brewDocs = (await indexLocal.toImport
 			.pMap(async name => {
 				name = `${name}`.trim();
-				const url = /^https?:\/\//.test(name) ? name : `${Renderer.get().baseUrl}${this._PATH_LOCAL_DIR}/${name}`;
+				const url = /^https?:\/\//.test(name) ? name : `${this._PATH_LOCAL_DIR}/${name}`;
 				const filename = UrlUtil.getFilename(url);
 				try {
 					const json = await DataUtil.loadRawJSON(url);
