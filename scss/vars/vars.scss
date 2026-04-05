@@ -11,9 +11,9 @@ $spacer: 1rem;
 
 $rgb-off-black: #333;
 
-$rgb-active-blue--light: #7398b7;
-$rgb-active-blue: #337ab7;
-$rgb-active-blue--dark: #2a6496;
+$rgb-active-blue--light: #b36b6b;
+$rgb-active-blue: #8b0000;
+$rgb-active-blue--dark: #6b0000;
 $rgb-active-red--light: #8a4b4b;
 $rgb-active-red: #8a1a1b;
 $rgb-active-red--dark: #711617;
@@ -25,7 +25,7 @@ $rgb-bg-highlight: #ff0;
 $rgb-border-yellow--statblock: #e69a28;
 
 $rgb-link-blue: $rgb-active-blue;
-$rgb-link-blue--muted: #7096b7;
+$rgb-link-blue--muted: #b07070;
 
 $rgb-border-grey: #ccc;
 $rgb-border-grey--trans: #cccccca0;
@@ -147,7 +147,7 @@ $font-line-height: 1.42857143;
 }
 
 @mixin mix-row-glow-active {
-	box-shadow: inset 0 0 0 5000px rgb(0 107 196 / 30%);
+	box-shadow: inset 0 0 0 5000px rgb(139 0 0 / 30%);
 }
 
 @mixin mix-row-glow-active--alt {

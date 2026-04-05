@@ -1,0 +1,2179 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "ASRDR",
+        "abbreviation": "ASRDR",
+        "full": "ASRDR Custom Subclasses",
+        "version": "1.0",
+        "authors": [
+          "ASRDR"
+        ],
+        "convertedBy": [
+          "Toothy"
+        ],
+        "color": "8b0000",
+        "targetSchema": "1.2"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1743800000,
+    "dateLastModified": 1743800000
+  },
+  "subclass": [
+    {
+      "name": "Nightstalker",
+      "shortName": "Nightstalker",
+      "source": "ASRDR",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "page": 1,
+      "subclassFeatures": [
+        "Nightstalker|Rogue||Nightstalker|ASRDR|3",
+        "Shadow Step|Rogue||Nightstalker|ASRDR|9",
+        "Lingering Hate|Rogue||Nightstalker|ASRDR|13",
+        "Avatar of Darkness|Rogue||Nightstalker|ASRDR|17"
+      ]
+    },
+    {
+      "name": "Marauder",
+      "shortName": "Marauder",
+      "source": "ASRDR",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "page": 1,
+      "subclassFeatures": [
+        "Marauder|Fighter||Marauder|ASRDR|3",
+        "Mean Streak|Fighter||Marauder|ASRDR|7",
+        "Unstoppable Momentum|Fighter||Marauder|ASRDR|10",
+        "Pursuer|Fighter||Marauder|ASRDR|15",
+        "Apex Predator|Fighter||Marauder|ASRDR|18"
+      ]
+    },
+    {
+      "name": "Fate Domain",
+      "shortName": "Fate",
+      "source": "ASRDR",
+      "className": "Cleric",
+      "classSource": "PHB",
+      "page": 1,
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "augury",
+              "bless",
+              "fortune's favor",
+              "silvery barbs"
+            ],
+            "5": [
+              "bestow curse",
+              "slow"
+            ],
+            "7": [
+              "death ward",
+              "divination"
+            ],
+            "9": [
+              "legend lore",
+              "synaptic static"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "augury",
+        "bless",
+        "fortune's favor",
+        "silvery barbs",
+        "bestow curse",
+        "slow",
+        "death ward",
+        "divination",
+        "legend lore",
+        "synaptic static"
+      ],
+      "subclassFeatures": [
+        "Fate Domain|Cleric||Fate|ASRDR|3",
+        "Ties that Bind|Cleric||Fate|ASRDR|6",
+        "Master of Destiny|Cleric||Fate|ASRDR|17"
+      ]
+    },
+    {
+      "name": "Vestige Patron",
+      "shortName": "Vestige",
+      "source": "ASRDR",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "page": 1,
+      "subclassFeatures": [
+        "Vestige Patron|Warlock||Vestige|ASRDR|3",
+        "Vestige Recovery|Warlock||Vestige|ASRDR|6",
+        "Aura of Power|Warlock||Vestige|ASRDR|10",
+        "Semblance of Life|Warlock||Vestige|ASRDR|14"
+      ]
+    },
+    {
+      "name": "Path of Wild Magic",
+      "shortName": "Wild Magic",
+      "source": "ASRDR",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "page": 1,
+      "subclassFeatures": [
+        "Path of Wild Magic|Barbarian||Wild Magic|ASRDR|3",
+        "Bolstering Magic|Barbarian||Wild Magic|ASRDR|6",
+        "Unstable Backlash|Barbarian||Wild Magic|ASRDR|10",
+        "Controlled Surge|Barbarian||Wild Magic|ASRDR|14"
+      ]
+    },
+    {
+      "name": "Path of the Juggernaut",
+      "shortName": "Juggernaut",
+      "source": "ASRDR",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "page": 1,
+      "subclassFeatures": [
+        "Path of the Juggernaut|Barbarian||Juggernaut|ASRDR|3",
+        "Demolishing Might|Barbarian||Juggernaut|ASRDR|6",
+        "Overwhelming Cleave|Barbarian||Juggernaut|ASRDR|10",
+        "Unstoppable|Barbarian||Juggernaut|ASRDR|14"
+      ]
+    },
+    {
+      "name": "The Seeker",
+      "shortName": "Seeker",
+      "source": "ASRDR",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "page": 1,
+      "additionalSpells": [
+        {
+          "expanded": {
+            "s1": [
+              "feather fall",
+              "jump",
+              "levitate",
+              "locate object"
+            ],
+            "s2": [
+              "clairvoyance",
+              "sending"
+            ],
+            "s3": [
+              "arcane eye",
+              "locate creature"
+            ],
+            "s4": [
+              "legend lore",
+              "passwall"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "feather fall",
+        "jump",
+        "levitate",
+        "locate object",
+        "clairvoyance",
+        "sending",
+        "arcane eye",
+        "locate creature",
+        "legend lore",
+        "passwall"
+      ],
+      "subclassFeatures": [
+        "The Seeker|Warlock||Seeker|ASRDR|3",
+        "Astral Refuge|Warlock||Seeker|ASRDR|6",
+        "Far Wanderer|Warlock||Seeker|ASRDR|10",
+        "Astral Sequestration|Warlock||Seeker|ASRDR|14"
+      ]
+    },
+    {
+      "name": "Sea Sorcery",
+      "shortName": "Sea Sorcery",
+      "source": "ASRDR",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "page": 1,
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "fog cloud",
+              "thunderwave",
+              "misty step"
+            ],
+            "5": [
+              "lightning bolt",
+              "tidal wave"
+            ],
+            "7": [
+              "control water",
+              "freedom of movement"
+            ],
+            "9": [
+              "cone of cold",
+              "maelstrom"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "fog cloud",
+        "thunderwave",
+        "misty step",
+        "lightning bolt",
+        "tidal wave",
+        "control water",
+        "freedom of movement",
+        "cone of cold",
+        "maelstrom"
+      ],
+      "subclassFeatures": [
+        "Sea Sorcery|Sorcerer||Sea Sorcery|ASRDR|3",
+        "Tidal Escape|Sorcerer||Sea Sorcery|ASRDR|6",
+        "Master of the Tides|Sorcerer||Sea Sorcery|ASRDR|14",
+        "Water Soul|Sorcerer||Sea Sorcery|ASRDR|18"
+      ]
+    },
+    {
+      "name": "Order Domain",
+      "shortName": "Order",
+      "source": "ASRDR",
+      "className": "Cleric",
+      "classSource": "PHB",
+      "page": 1,
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "command",
+              "heroism",
+              "hold person",
+              "zone of truth"
+            ],
+            "5": [
+              "mass healing word",
+              "slow"
+            ],
+            "7": [
+              "compulsion",
+              "locate creature"
+            ],
+            "9": [
+              "commune",
+              "dominate person"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "command",
+        "heroism",
+        "hold person",
+        "zone of truth",
+        "mass healing word",
+        "slow",
+        "compulsion",
+        "locate creature",
+        "commune",
+        "dominate person"
+      ],
+      "subclassFeatures": [
+        "Order Domain|Cleric||Order|ASRDR|3",
+        "Embodiment of the Law|Cleric||Order|ASRDR|6",
+        "Order's Wrath|Cleric||Order|ASRDR|17"
+      ]
+    },
+    {
+      "name": "Grave Knight",
+      "shortName": "Grave Knight",
+      "source": "ASRDR",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "page": 1,
+      "spellcastingAbility": "int",
+      "casterProgression": "1/3",
+      "subclassFeatures": [
+        "Grave Knight|Fighter||Grave Knight|ASRDR|3",
+        "Rigor Mortis|Fighter||Grave Knight|ASRDR|7",
+        "Grave Rebuke|Fighter||Grave Knight|ASRDR|10",
+        "Soul Siphon|Fighter||Grave Knight|ASRDR|15",
+        "Avatar of Undeath|Fighter||Grave Knight|ASRDR|18"
+      ]
+    },
+    {
+      "name": "Entropy Domain",
+      "shortName": "Entropy",
+      "source": "ASRDR",
+      "className": "Cleric",
+      "classSource": "PHB",
+      "page": 1,
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "armor of agathys",
+              "bane",
+              "ray of enfeeblement"
+            ],
+            "5": [
+              "counterspell",
+              "erupting earth"
+            ],
+            "7": [
+              "blight"
+            ],
+            "9": [
+              "antilife shell",
+              "destructive wave"
+            ]
+          }
+        }
+      ],
+      "subclassSpells": [
+        "armor of agathys",
+        "bane",
+        "ray of enfeeblement",
+        "counterspell",
+        "erupting earth",
+        "blight",
+        "antilife shell",
+        "destructive wave"
+      ],
+      "subclassFeatures": [
+        "Entropy Domain|Cleric||Entropy|ASRDR|3",
+        "Potent Forecasting|Cleric||Entropy|ASRDR|6",
+        "Herald of the End|Cleric||Entropy|ASRDR|17"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Nightstalker",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Nightstalker",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "Nightstalkers are the ruthless executioners of the darkest pantheons. Whether fueled by the strife of Cyric, the twisting influence of Mask, or the festering hate of Moander, the Nightstalker is a walking herald of the \"Crawling Abyss.\" They are not mere murderers; they are zealous instruments of the unseen. Striking from the ceiling or erupting from the floorboards, they drag their blades through the choking dark to deliver the perfect, terrifying blow.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Shroud of the Deceiver|Rogue||Nightstalker|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Cunning Strike: Choking Cloud|Rogue||Nightstalker|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "Shroud of the Deceiver",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Nightstalker",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You have been initiated into the arts of the unseen. You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Gloom Sight",
+          "entries": [
+            "You gain Darkvision out to a range of 60 feet. If you already have Darkvision, its range increases by 30 feet. You can see normally through areas of heavy obscurity caused by smoke, fog, or magical darkness created by your own spells or features."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Vicious Sneak Attack",
+          "entries": [
+            "Your strikes are lethal when unseen. When you deal Sneak Attack damage to a creature while you are Invisible, in Darkness, or in an area of Heavy Obscurity, you roll {@dice d8}s instead of {@dice d6}s for your Sneak Attack damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cunning Strike: Choking Cloud",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Nightstalker",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You gain a new option for your Cunning Strike:",
+        {
+          "type": "entries",
+          "name": "Choking Cloud (Cost: 1d6)",
+          "entries": [
+            "You shatter a vial of caustic soot. A 10-foot-radius sphere of gray smoke appears centered on the target. The sphere spreads around corners, and its area is Heavily Obscured. The smoke dissipates at the start of your next turn or if dispersed by a moderate or stronger wind. The target must also succeed on a Constitution saving throw (DC 8 + your Dexterity modifier + your Proficiency Bonus) or be {@condition Blinded} until the start of your next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shadow Step",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Nightstalker",
+      "subclassSource": "ASRDR",
+      "level": 9,
+      "header": 2,
+      "entries": [
+        "At 9th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, you can use a Bonus Action to teleport up to 30 feet to an unoccupied space you can see that is also in dim light or darkness. You have Advantage on the first melee attack you make before the end of the turn.",
+        {
+          "type": "entries",
+          "name": "Shadow Sprint",
+          "entries": [
+            "If you use your Cunning Action to Dash or Disengage, you can weave this teleport into that movement, allowing you to teleport as part of that same Bonus Action."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lingering Hate",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Nightstalker",
+      "subclassSource": "ASRDR",
+      "level": 13,
+      "header": 2,
+      "entries": [
+        "The influence of your deity seeps into your blades, leaving a supernatural rot. When you deal Sneak Attack damage to a creature, you can curse it with lingering hate. The curse lasts for 1 minute or until the target dies.",
+        {
+          "type": "entries",
+          "name": "Hexed Blade",
+          "entries": [
+            "While cursed, the target takes an extra {@damage 1d6} necrotic damage whenever you hit it with an attack."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Cursed Mind/Body",
+          "entries": [
+            "When you apply the curse, choose one ability score; the target has Disadvantage on ability checks made with that ability."
+          ]
+        },
+        "You can only have one creature cursed at a time, but this feature does not require concentration."
+      ]
+    },
+    {
+      "name": "Avatar of Darkness",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Nightstalker",
+      "subclassSource": "ASRDR",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "You become a nightmare made manifest. You can cast {@spell greater invisibility} on yourself without providing any components. You can use this feature a number of times equal to your Dexterity modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+        {
+          "type": "entries",
+          "name": "Master of the Abyss",
+          "entries": [
+            "While you are Invisible or in an area of Heavy Obscurity, you can use two Cunning Strike options simultaneously on a single Sneak Attack, paying the Sneak Attack die cost for only the most expensive option."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marauder",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Marauder",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "While some fighters rely on the elegance of a blade or the precision of an arrow, the Marauder relies on the brutal physics of the clinch. These warriors are specialists in close-quarters lockdown, trained to exploit every gap in an opponent's posture to drag them to the dirt or squeeze the life from their lungs. Often found as elite urban enforcers, pit fighters, or shock troopers, Marauders treat the battlefield like a wrestling mat where they are the undisputed masters.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "CQC Specialist|Fighter||Marauder|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "The Strangler's Hold|Fighter||Marauder|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "CQC Specialist",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Marauder",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Your training focuses on the brutal arts of the clinch and the takedown. You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Unarmed Prowess",
+          "entries": [
+            "Your unarmed strikes deal bludgeoning damage equal to {@damage 1d8} + your Strength modifier."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Seamless Takedown",
+          "entries": [
+            "When you take the Attack action and hit a creature with an Unarmed Strike, you can force them to make the saving throw against being Grappled or Shoved (your choice) as part of that same attack, rather than having to forfeit the damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Heavyweight Grappler",
+          "entries": [
+            "The saving throw DC to resist your Grapple or Shove attempts is calculated as 8 + your Strength modifier + your Proficiency Bonus. Furthermore, you can grapple creatures up to two sizes larger than you."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Strangler's Hold",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Marauder",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "When you have a creature Grappled, you can exert devastating control over their posture and breathing. You gain two maneuvers you can use against a creature currently grappled by you:",
+        {
+          "type": "entries",
+          "name": "Chokehold",
+          "entries": [
+            "As a Bonus Action, you attempt to cut off the creature's air or blood flow. The target must make a Constitution saving throw against your Grapple DC. On a failure, the creature is {@condition Restrained} until the grapple ends. While Restrained in this way, the creature is suffocating, cannot speak, and cannot cast spells requiring Verbal components."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Gale-Force Trip",
+          "entries": [
+            "When you hit a grappled creature with a melee attack, you can immediately force them to make a Strength saving throw against your Grapple DC. On a failure, they are knocked {@condition Prone} and take additional bludgeoning damage equal to your Fighter level. Because a grappled creature has a Speed of 0, they cannot spend movement to stand up from Prone until they break the grapple."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mean Streak",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Marauder",
+      "subclassSource": "ASRDR",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "You have learned to ruthlessly capitalize on an opponent's compromised posture.",
+        {
+          "type": "entries",
+          "name": "Brutalized Advantage",
+          "entries": [
+            "Whenever you roll damage against a creature that is {@condition Prone}, {@condition Grappled}, or {@condition Restrained}, you can roll the weapon or unarmed strike's damage dice twice and use the higher total."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Meat Shield",
+          "entries": [
+            "You know how to leverage your victim's body against incoming attacks. As long as you are grappling a creature of your size or larger, you gain Half-Cover (+2 to AC and Dexterity saving throws)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unstoppable Momentum",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Marauder",
+      "subclassSource": "ASRDR",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Your physical conditioning reaches new heights, allowing you to dominate the arena without breaking a sweat.",
+        "Your Unarmed Prowess damage increases to {@damage 1d10}.",
+        "Your movement speed is no longer halved when you are dragging or carrying a grappled creature."
+      ]
+    },
+    {
+      "name": "Pursuer",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Marauder",
+      "subclassSource": "ASRDR",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "You become an inescapable force on the battlefield.",
+        {
+          "type": "entries",
+          "name": "Vaulting Leap",
+          "entries": [
+            "Your jump distance is doubled. If you move at least 10 feet before leaping toward a creature, you can attempt to Grapple them as a Bonus Action upon landing."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Submission Master",
+          "entries": [
+            "Your Chokehold becomes lethal. When a creature starts its turn {@condition Restrained} by your Chokehold, they must succeed on a Constitution saving throw against your Grapple DC. On a failure, they gain one level of Exhaustion. This exhaustion is removed when they finish a Short or Long Rest."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apex Predator",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Marauder",
+      "subclassSource": "ASRDR",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "You have reached the pinnacle of physical dominance. You gain the following:",
+        {
+          "type": "entries",
+          "name": "Colossal Grip",
+          "entries": [
+            "You can now grapple creatures of any size."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Neck Break",
+          "entries": [
+            "When you have a creature {@condition Restrained} via your Chokehold, you can use your Action to attempt a horrific finishing move. The target must make a Constitution saving throw against your Grapple DC. On a failure, they take {@damage 10d10} Force damage, or half as much on a success. If this damage reduces the creature to 0 hit points, you snap their neck or spine, killing them instantly (provided the creature has an anatomy that allows for this)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fate Domain",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Fate",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "Gods of fate perceive the future not as a single thread, but as a sprawling tapestry of choices that drive mortals toward their destinies. Some deities consider the end preordained, while others understand the multiverse as a chaotic web of infinite possibility. Clerics who draw power from the forces of fate are weavers of this web. They receive fleeting omens, pluck the strings of probability to share impossible knowledge with their allies, and prophesize their enemies' inevitable doom.",
+        {
+          "type": "table",
+          "caption": "Fate Domain Spells",
+          "colLabels": [
+            "Cleric Level",
+            "Prepared Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell augury}, {@spell bless}, Fortune's Favor, {@spell silvery barbs}"
+            ],
+            [
+              "5th",
+              "{@spell bestow curse}, {@spell slow}"
+            ],
+            [
+              "7th",
+              "{@spell death ward}, {@spell divination}"
+            ],
+            [
+              "9th",
+              "{@spell legend lore}, {@spell synaptic static}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Prophet of Truth|Cleric||Fate|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Channel Divinity: Strands of Fate|Cleric||Fate|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "Prophet of Truth",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Fate",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can nudge the scales of destiny in moments of crisis. When you or a creature you can see within 30 feet makes a D20 Test (an ability check, attack roll, or saving throw), you can use your Reaction to roll a {@dice 1d6} and add or subtract it from the total. You can choose to use this feature after the d20 is rolled, but before the DM declares whether the roll succeeds or fails.",
+        "You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Channel Divinity: Strands of Fate",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Fate",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can use your Channel Divinity to tether the fates of those around you. As a Magic Action, you choose a number of willing creatures you can see within 30 feet of you, up to your Wisdom modifier. For 1 minute, you create a glowing, ethereal Fate Bond between them and yourself. While bonded, you unlock the following capabilities:",
+        {
+          "type": "entries",
+          "name": "Tethered Vitality",
+          "entries": [
+            "Whenever a bonded creature takes damage, you can use your Reaction to halve that damage. One other bonded creature of your choice (which can be you) then takes an amount of Force damage equal to the prevented damage. This transferred damage cannot be reduced or avoided in any way."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Shared Destiny",
+          "entries": [
+            "Once per round, when a bonded creature makes a D20 Test, they can choose to replace their roll with the natural d20 result most recently rolled by another bonded creature. They must choose to do this before the outcome of their roll is determined."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ties that Bind",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Fate",
+      "subclassSource": "ASRDR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Your mastery over the timeline deepens, allowing you to sever harmful threads of fate. When you use your Strands of Fate Channel Divinity, you can immediately end one spell or condition affecting one of the bonded creatures. The condition must be {@condition Blinded}, {@condition Charmed}, {@condition Deafened}, {@condition Frightened}, {@condition Paralyzed}, or {@condition Poisoned}."
+      ]
+    },
+    {
+      "name": "Master of Destiny",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Fate",
+      "subclassSource": "ASRDR",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "You have seen the end of all things, and nothing catches you off guard. You can no longer be Surprised, and you have Advantage on all Initiative rolls.",
+        {
+          "type": "entries",
+          "name": "Visions of the Future",
+          "entries": [
+            "You can cast the {@spell foresight} spell once per Long Rest without expending a spell slot or requiring material components. When you cast it using this feature, its duration is reduced to 10 minutes, but you can choose one allied creature within 30 feet to also gain the full benefits of the spell for the duration."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vestige Patron",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Vestige",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "Your pact draws on the power of a dying god, a being once worshipped by countless followers but now reduced to an infant, an amnesiac, or a helpless avatar. This dying god, known as a vestige, might have been benevolent, evil, or strange and unknowable, but right now, it is entirely dependent on you. It needs your help to survive, learn about the world, and eventually regain its former power. In exchange, it shares its erratic, overwhelming strength with you—provided you can keep it in a good mood.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Vestige Companion|Warlock||Vestige|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Vestige Spells|Warlock||Vestige|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Divine Power|Warlock||Vestige|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "Vestige Companion",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Vestige",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "The vestige manifests to aid you, drawing strength from your pact. It is a Celestial, Fiend, or Undead (choose when you gain this feature). You determine its appearance, but regardless of its form, it bears features indicating its supernatural origin. The vestige is Friendly to you and your allies and obeys your commands. It vanishes if you die.",
+        {
+          "type": "entries",
+          "name": "The Vestige in Combat",
+          "entries": [
+            "In combat, the vestige acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the vestige to take the Vestige's Strike action. If you have the {@condition Incapacitated} condition, the vestige acts on its own and isn't limited to the Dodge action."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Divine Disposition",
+          "entries": [
+            "The vestige's power is unstable, and its willingness to aid you depends on its current disposition. At the start of combat, its disposition is Neutral.",
+            {
+              "type": "list",
+              "items": [
+                "{@b Neutral:} The vestige follows your commands normally as outlined above.",
+                "{@b Displeased:} If the vestige takes damage, its disposition becomes Displeased. While Displeased, its Vestige's Strike attack rolls are made with Disadvantage.",
+                "{@b Favorable:} As a Bonus Action, you or an ally within 5 feet of the vestige can offer a prayer or tend to its vulnerable form by making a DC 10 Charisma (Persuasion or Religion) check. On a success, its disposition improves by one step. While Favorable, its Vestige's Strike attack rolls are made with Advantage."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Disappearance of the Vestige",
+          "entries": [
+            "When the vestige drops to 0 Hit Points, it disappears. You can spend 1 minute performing a magic ceremony to manifest the vestige again; it reappears with its maximum Hit Points in an unoccupied space within 5 feet of you. As a Magic action, you can temporarily dismiss the vestige to a pocket dimension, and as a Magic action while it is dismissed, you can cause it to reappear in an unoccupied space within 30 feet of you.",
+            "Whenever you finish a Long Rest, you can summon the vestige in a new form, choosing its appearance and whether it is a Celestial, Fiend, or Undead."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vestige Spells",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Vestige",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric Domains: Life, Light, Trickery, or War. The Domain Spells of your chosen Domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric Level listed on the Domain Spells table for the Domain you have chosen, you thereafter always have the listed spells prepared."
+      ]
+    },
+    {
+      "name": "Divine Power",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Vestige",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Once per day as a Bonus Action, your vestige manifests a remnant of its divine power in one of the following ways, based on its form. The vestige cannot use this feature while its disposition is Displeased.",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Cursed Invocation (Undead Only)",
+              "entries": [
+                "The vestige places a curse on a creature you can see within 30 feet of the vestige for 1 minute. While cursed, the target has Disadvantage on attack rolls against you and the vestige."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Fiendish Swap (Fiend Only)",
+              "entries": [
+                "If you and the vestige are within 60 feet of each other, you both teleport, swapping places."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Healing Touch (Celestial Only)",
+              "entries": [
+                "The vestige touches another creature. The target regains Hit Points equal to {@dice 2d8} plus your Charisma modifier and ends one condition on it: {@condition Blinded}, {@condition Deafened}, or {@condition Poisoned}."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vestige Recovery",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Vestige",
+      "subclassSource": "ASRDR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Your Vestige Companion now regains its use of Divine Power whenever you finish a Short or Long Rest or when you use your Magical Cunning feature. Additionally, if you spend time tending to the vestige during a Short Rest, its disposition automatically becomes Favorable at the start of your next combat encounter."
+      ]
+    },
+    {
+      "name": "Aura of Power",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Vestige",
+      "subclassSource": "ASRDR",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Your Vestige Companion increases in magical strength. As a Magic Action, you can cause the vestige to manifest an aura in a 30-foot Emanation that originates from the vestige. The aura lasts a number of hours equal to your Charisma modifier or until the vestige disappears or is temporarily dismissed. You, the vestige, and your allies within the aura gain Resistance to Fire, Necrotic, and Radiant damage and have Immunity to the {@condition Charmed} and {@condition Frightened} conditions. Once you manifest this aura, you can't do so again until you finish a Long Rest.",
+        "In addition, when you drop to 0 Hit Points while within the aura, you instead change your Hit Points to a number equal to your Warlock level plus your Charisma modifier. The vestige is then dismissed into a pocket dimension and can't return until you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Semblance of Life",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Vestige",
+      "subclassSource": "ASRDR",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Your Vestige Companion continues to grow in strength, and with your assistance, it can briefly adopt a more powerful form. Depending on the vestige's type, you can cast one of the following spells while the vestige is within 90 feet of you without expending a spell slot or needing Material components: {@spell summon celestial} (Celestial vestige), {@spell summon fiend} (Fiend vestige), or {@spell summon undead} (Undead vestige).",
+        "When you cast the spell with this feature, the vestige becomes the summoned creature. Its game statistics are replaced by the summoned creature's stat block, the spell's level is equal to half your Warlock level (round down; maximum level 9), and the spell's duration is 1 minute. When the spell ends, the vestige returns to its previous form. Once you have cast the spell in this way, you can't do so again until you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Path of Wild Magic",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Wild Magic",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "Many places in the multiverse abound with beauty, intense emotion, and rampant magic; the Feywild, the Upper Planes, and other realms of supernatural power radiate with such forces and can profoundly influence people. As folk of deep feeling, barbarians are especially susceptible to these wild influences, with some barbarians being transformed by the magic. These magic-suffused barbarians walk the Path of Wild Magic. Elf, tiefling, aasimar, and genasi barbarians often seek this path, eager to manifest the otherworldly magic of their ancestors.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Magic Awareness|Barbarian||Wild Magic|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Wild Surge|Barbarian||Wild Magic|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "Magic Awareness",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Wild Magic",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Your connection to wild magic allows you to sense its presence. As a Magic Action, you can cast the {@spell detect magic} spell without expending a spell slot or requiring components. Strength is your spellcasting ability for this spell. When you cast it using this feature, its range is 60 feet, and it does not require Concentration.",
+        "You can use this feature a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Wild Surge",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Wild Magic",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "The magical energy roiling inside you sometimes erupts from you. When you enter your Rage, you roll on your Wild Magic d100 table to determine the magical effect produced.",
+        "If a Wild Magic effect requires a saving throw, the DC equals 8 + your Strength modifier + your Proficiency Bonus."
+      ]
+    },
+    {
+      "name": "Bolstering Magic",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Wild Magic",
+      "subclassSource": "ASRDR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "You can harness your wild magic to bolster yourself or a companion. As a Magic Action, you can touch a willing creature (which can be yourself) and confer one of the following benefits of your choice:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Might",
+              "entries": [
+                "For 10 minutes, whenever the creature makes a D20 Test (an ability check, attack roll, or saving throw), it can roll a {@dice d4} and add it to the result."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Mana",
+              "entries": [
+                "The creature rolls a {@dice d4} and regains an expended spell slot of a level equal to the number rolled or lower (the creature's choice). Once a creature receives this benefit, it can't receive it again until it finishes a Long Rest."
+              ]
+            }
+          ]
+        },
+        "You can use this feature a number of times equal to your Strength modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Magic Precision",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Wild Magic",
+      "subclassSource": "ASRDR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "The chaotic energy surrounding you parts the magical defenses of your foes. While your Rage is active, your melee weapon attacks ignore spells and magical effects that reduce, nullify, or reflect damage (such as {@spell armor of agathys}, {@spell fire shield}, or {@spell blink}). Standard damage Resistances and Immunities still apply normally."
+      ]
+    },
+    {
+      "name": "Unstable Backlash",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Wild Magic",
+      "subclassSource": "ASRDR",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "When you are imperiled, the magic within you lashes out defensively. When you take damage or fail a saving throw while your Rage is active, you can use your Reaction to roll on the Wild Magic d100 table and immediately produce the effect. This new effect replaces your current active Wild Magic effect."
+      ]
+    },
+    {
+      "name": "Controlled Surge",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Wild Magic",
+      "subclassSource": "ASRDR",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "You have learned to ride the chaotic currents of your magic. Whenever you roll on the Wild Magic d100 table, you can roll the die twice and choose which of the two effects to unleash. If you roll the exact same number on both dice, you can ignore the roll and choose any effect on the table."
+      ]
+    },
+    {
+      "name": "Path of the Juggernaut",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "Juggernaut barbarians are siege engines in their own right, able to stand their ground and move their foes into positions of weakness. While raging, they make any battlefield their domain, shoving foes over mountainsides and destroying even the strongest structures with their attacks.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Thunderous Blows|Barbarian||Juggernaut|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Stance of the Mountain|Barbarian||Juggernaut|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "Thunderous Blows",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Starting when you choose this path, your rage instills you with the strength to batter around your foes, making any battlefield your domain. Once per turn while your Rage is active, when you damage a creature with a melee attack, you can force the target to make a Strength saving throw (DC 8 + your Strength modifier + your Proficiency Bonus).",
+        "On a failed save, you push the target 5 feet away from you, and you can choose to immediately move up to 5 feet into the target's previous space without provoking Opportunity Attacks."
+      ]
+    },
+    {
+      "name": "Stance of the Mountain",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You harness your fury to anchor your feet to the earth, shrugging off the blows of those who wish to topple you. While your Rage is active, you cannot be knocked {@condition Prone} unless you have the {@condition Unconscious} condition."
+      ]
+    },
+    {
+      "name": "Demolishing Might",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "ASRDR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "Beginning at 6th level, you muster destructive force with your assault, shaking the core of even the strongest structures. You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Siege Engine",
+          "entries": [
+            "Your melee attacks deal double damage to objects and structures. Furthermore, your melee attacks against creatures of the Construct type deal an additional {@damage 1d8} damage of the weapon's type."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Diligent Discipline",
+          "entries": [
+            "When you successfully push a creature or knock it {@condition Prone} (such as with an Unarmed Strike or a Weapon Mastery like Push or Topple), the next time you hit that creature with an improvised weapon or melee attack before the end of your turn, the attack deals an extra {@damage 1d8} Thunder damage, and the creature is pushed up to 15 feet away from you. This Thunder damage increases to {@damage 2d8} when you reach Barbarian level 10."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Overwhelming Cleave",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "ASRDR",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Upon reaching 10th level, you wade into armies of foes, great swings of your weapon striking any who threaten you. While your Rage is active, when you hit a creature with a melee weapon attack, you can use a Bonus Action to make one additional melee weapon attack against a different creature that is within 5 feet of the original target and within your reach."
+      ]
+    },
+    {
+      "name": "Unstoppable",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "ASRDR",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Starting at 14th level, you can choose to become an unstoppable force when you activate your Rage. If you do so, for the duration of the Rage your Speed cannot be reduced, and you are immune to the {@condition Frightened}, {@condition Paralyzed}, and {@condition Stunned} conditions.",
+        "If you are currently afflicted by the {@condition Frightened}, {@condition Paralyzed}, or {@condition Stunned} conditions, you can still take a Bonus Action to activate your Rage and suspend those effects for the duration of your Rage. When an Unstoppable Rage ends, the sheer physical toll causes you to gain one level of Exhaustion."
+      ]
+    },
+    {
+      "name": "The Seeker",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Seeker",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "While some warlocks make pacts with fiends or fey, you have bound yourself to the pursuit of pure, unfiltered knowledge. You are a Seeker, a cosmic wanderer entrusted by an unfathomable patron to explore the furthest reaches of the Astral Plane and beyond. Your patron might be a deity of knowledge like Oghma or Celestian, a cosmic entity dwelling in the Far Realm, or an ancient mortal who transcended the bounds of reality.",
+        {
+          "type": "table",
+          "caption": "Seeker Spells",
+          "colLabels": [
+            "Warlock Level",
+            "Prepared Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell feather fall}, {@spell jump}, {@spell levitate}, {@spell locate object}"
+            ],
+            [
+              "5th",
+              "{@spell clairvoyance}, {@spell sending}"
+            ],
+            [
+              "7th",
+              "{@spell arcane eye}, {@spell locate creature}"
+            ],
+            [
+              "9th",
+              "{@spell legend lore}, {@spell passwall}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Shielding Aurora|Warlock||Seeker|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Chain of the Cosmos|Warlock||Seeker|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "Shielding Aurora",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Seeker",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can invoke your patron's power to protect you from harm as you traverse dangerous realms. As a Bonus Action, you create a whirling aurora of brilliant cosmic energy that swirls around you.",
+        "Until the end of your next turn, you gain Resistance to all damage, and if a hostile creature ends its turn within 10 feet of you, it takes Radiant damage equal to your Warlock level + your Charisma modifier.",
+        "You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Chain of the Cosmos",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Seeker",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Your patron grants you a physical manifestation of your bond, often appearing as a chain forged from starlight, an ancient astrolabe, or a glowing pendant.",
+        "While this item is on your person, you always have the {@spell augury} spell prepared, and you can cast it as a Ritual without requiring Material components. Furthermore, you can invoke the item's power to gain Advantage on an Intelligence check. Once you use this Advantage feature, you cannot use it again until you finish a Short or Long Rest.",
+        "If you lose this item, you can perform a 1-hour ceremony during a Short or Long Rest to receive a replacement, which destroys the previous item."
+      ]
+    },
+    {
+      "name": "Astral Refuge",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Seeker",
+      "subclassSource": "ASRDR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "You gain the ability to step into an astral refuge, dodging danger and rapidly preparing your magical defenses. As a Magic Action, you disappear from the world for a brief moment and enter the Astral Plane, taking advantage of its timeless nature.",
+        "While in your astral refuge, you can prepare to use two Actions to cast spells. After you prepare these two actions, you instantly return to the space you occupied (or the nearest unoccupied space), the spells are cast and your turn ends.",
+        "Once you use this feature, you cannot use it again until you finish a Short or Long Rest, unless you expend a Warlock spell slot (no action required) to use it again."
+      ]
+    },
+    {
+      "name": "Far Wanderer",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Seeker",
+      "subclassSource": "ASRDR",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "Your body adapts to the harsh, unforgiving environments of the cosmos. You no longer need to breathe, and you gain Resistance to Fire damage and Cold damage."
+      ]
+    },
+    {
+      "name": "Astral Sequestration",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "Seeker",
+      "subclassSource": "ASRDR",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "You gain the ability to sequester yourself and your allies within a localized pocket of the Astral Plane. By performing a special ritual over the course of 1 minute, you shift yourself and up to ten willing creatures you can see into the Astral Plane.",
+        "You and those creatures gain the benefits of a Short Rest while sequestered on the Astral Plane. You then return to the spaces you all occupied when you used this ability, with no time having passed in the material world. During this special Short Rest, you and the sequestered creatures can make use of any options normally available during a rest.",
+        "Once you use this ability, you cannot use it again until you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Sea Sorcery",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Sea Sorcery",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "Your innate magic comes from the vast and untamable power of the sea. You might be the descendant of a sea god, have been saved from drowning by a powerful elemental, or perhaps you were born in a storm so mighty it imprinted its magic upon your soul. Whatever its origin, your magic is the magic of the crashing wave, the dark pressure of the abyss, and the sudden, shocking strike of a storm. You are a conduit for the ocean's beautiful and terrifying power.",
+        {
+          "type": "table",
+          "caption": "Sea Spells",
+          "colLabels": [
+            "Sorcerer Level",
+            "Prepared Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell fog cloud}, {@spell thunderwave}, {@spell misty step}"
+            ],
+            [
+              "5th",
+              "{@spell lightning bolt}, Tidal Wave"
+            ],
+            [
+              "7th",
+              "{@spell control water}, {@spell freedom of movement}"
+            ],
+            [
+              "9th",
+              "{@spell cone of cold}, Maelstrom"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Soul of the Sea|Sorcerer||Sea Sorcery|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Aqueous Shield|Sorcerer||Sea Sorcery|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "Soul of the Sea",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Sea Sorcery",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Your body is imbued with the physical resilience of the deep. You can breathe air and water, and you gain a Swim Speed equal to your Speed."
+      ]
+    },
+    {
+      "name": "Aqueous Shield",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Sea Sorcery",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can call upon the ocean to protect you. As a Bonus Action, you can spend 1 Sorcery Point to envelop yourself in a swirling shield of magical water for 1 minute. While the shield is active, you gain a +2 bonus to your Armor Class.",
+        "When a creature within 5 feet of you hits you with a melee attack, the shield violently erupts and the effect ends. The attacker takes Cold damage equal to your Charisma modifier plus your Proficiency Bonus, and the target becomes Drenched until the end of its next turn.",
+        {
+          "type": "entries",
+          "name": "Drenched",
+          "entries": [
+            "A drenched creature's Speed is reduced by 10 feet, and is considered wet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tidal Escape",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Sea Sorcery",
+      "subclassSource": "ASRDR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "You can momentarily dissolve into water to evade harm. When you are hit by an attack, you can use your Reaction and expend 1 Sorcery Point to gain Resistance to the triggering attack's damage. You then instantly teleport to an unoccupied space you can see within 15 feet of you, reappearing in a splash of sea spray."
+      ]
+    },
+    {
+      "name": "Master of the Tides",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Sea Sorcery",
+      "subclassSource": "ASRDR",
+      "level": 14,
+      "header": 2,
+      "entries": [
+        "Your watery forms and shields become second nature. You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Crashing Wave",
+          "entries": [
+            "While your Aqueous Shield is active, you can use your Bonus Action to drench a foe from afar. Choose one creature you can see within 30 feet of you. The target must make a Dexterity saving throw against your Spell Save DC. On a failed save, the creature takes {@damage 2d8} Cold damage and becomes Drenched until the end of its next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fluid Movement",
+          "entries": [
+            "When you move on your turn, you take only half damage from Opportunity Attacks, and you can move through any enemy's space (though you cannot willingly end your move there)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Water Form",
+          "entries": [
+            "On your turn, you can move through any space that is at least 3 inches in diameter without squeezing. When you stop moving, the regular squeezing rules apply if you're in a space one size smaller than you. You can't willingly stop in a space smaller than that; if you're forced to do so, you immediately flow to the nearest space that can fit you, back along the path of your movement."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water Soul",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Sea Sorcery",
+      "subclassSource": "ASRDR",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "Your physical being is permanently altered by the power of the sea, transforming you into an elemental force. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You no longer need to eat, drink, or sleep.",
+            "Any critical hit against you becomes a normal hit.",
+            "You have Resistance to Bludgeoning, Piercing, and Slashing damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Order Domain",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Order",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "The Order Domain represents discipline, as well as devotion to the laws that govern a society, an institution, or a philosophy. Clerics of Order meditate on logic and justice as they serve their gods.",
+        "Clerics of Order believe that well-crafted laws establish legitimate hierarchies, and those selected by law to lead must be obeyed. Those who obey must do so to the best of their ability, and if those who lead fail to protect the law, they must be replaced. In this manner, law weaves a web of obligations that create order and security in a chaotic multiverse.",
+        {
+          "type": "table",
+          "caption": "Order Domain Spells",
+          "colLabels": [
+            "Cleric Level",
+            "Prepared Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell command}, {@spell heroism}, {@spell hold person}, {@spell zone of truth}"
+            ],
+            [
+              "5th",
+              "{@spell mass healing word}, {@spell slow}"
+            ],
+            [
+              "7th",
+              "{@spell compulsion}, {@spell locate creature}"
+            ],
+            [
+              "9th",
+              "{@spell commune}, {@spell dominate person}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Voice of Authority|Cleric||Order|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Channel Divinity: Order's Demand|Cleric||Order|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "Voice of Authority",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Order",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can invoke the power of law to embolden an ally to attack. If you cast a spell of level 1 or higher and target an allied creature with the spell, that ally can use their Reaction immediately after the spell's effects resolve to make one weapon attack or Unarmed Strike against a creature of your choice that you can see.",
+        "If the spell targets more than one ally, you choose the ally who gets to make the attack."
+      ]
+    },
+    {
+      "name": "Channel Divinity: Order's Demand",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Order",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can use your Channel Divinity to exert an intimidating presence over others. As a Magic Action, you present your Holy Symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or gain the {@condition Charmed} condition until the end of your next turn, or until the Charmed creature takes any damage.",
+        "You can also cause any of the Charmed creatures to drop what they are holding when they fail the saving throw."
+      ]
+    },
+    {
+      "name": "Embodiment of the Law",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Order",
+      "subclassSource": "ASRDR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "You have become remarkably adept at channeling magical energy to compel others. If you cast a spell of the Enchantment school of level 1 or higher, you can change the spell's casting time to a Bonus Action for this casting, provided the spell's casting time is normally an Action.",
+        "You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Channel Divinity: Grand Strategy",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Order",
+      "subclassSource": "ASRDR",
+      "level": 6,
+      "header": 1,
+      "entries": [
+        "You can use your Channel Divinity to fuel your tactical mind, altering the flow of the battlefield. As a Magic Action, you choose one of the following options:",
+        {
+          "type": "options",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Exploit Weakness",
+              "entries": [
+                "You point out a tactical flaw in a creature or object you can see within 60 feet. For 1 minute, the first time you or an ally makes an attack roll or ability check against that target, the roll is made with Advantage. If it is an attack that hits, it deals an additional {@damage 2d8} damage of the weapon or spell's type. Once the Advantage is used, this effect ends."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Plant Weakness",
+              "entries": [
+                "You seed doubt and sabotage within an enemy's defenses. Choose one creature you can see within 60 feet. It must succeed on a Wisdom saving throw against your Spell Save DC. On a failure, you strip away its tactical advantages: for 1 minute, the target cannot benefit from Half-Cover or Three-Quarters Cover, and it subtracts a {@dice 1d4} from the next saving throw it makes."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Order's Wrath",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Order",
+      "subclassSource": "ASRDR",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "Enemies you designate for destruction wilt under the combined efforts of you and your allies. When you use your Voice of Authority feature to allow an ally to make an attack, you empower that attack with the heavy, crushing weight of the law. If that specific attack hits, it deals an extra {@damage 2d10} Psychic damage."
+      ]
+    },
+    {
+      "name": "Grave Knight",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Grave Knight",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "A Grave Knight is a warrior who has tethered their soul to the grim energies of the necropolis. They are not necessarily evil, but they understand that death is a tool, a source of power, and an inevitable part of the cycle. Drawing power from this connection, a Grave Knight wreathes their blade in necrotic energy, teleports through shadowy paths, and channels the chilling touch of the beyond.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Gravecasting|Fighter||Grave Knight|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Grave Rites|Fighter||Grave Knight|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "Gravecasting",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Grave Knight",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You have learned to draw upon the magic of the grave.",
+        {
+          "type": "entries",
+          "name": "Cantrips",
+          "entries": [
+            "You learn two cantrips of your choice from the Warlock spell list."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Spell Slots",
+          "entries": [
+            "The Grave Knight Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest.",
+            {
+              "type": "table",
+              "caption": "Grave Knight Spellcasting",
+              "colLabels": [
+                "Fighter Level",
+                "1st-Level Slots",
+                "2nd-Level Slots",
+                "3rd-Level Slots"
+              ],
+              "colStyles": [
+                "col-3 text-center",
+                "col-3 text-center",
+                "col-3 text-center",
+                "col-3 text-center"
+              ],
+              "rows": [
+                [
+                  "3rd",
+                  "3",
+                  "—",
+                  "—"
+                ],
+                [
+                  "5th",
+                  "4",
+                  "—",
+                  "—"
+                ],
+                [
+                  "7th",
+                  "5",
+                  "2",
+                  "—"
+                ],
+                [
+                  "9th",
+                  "5",
+                  "2",
+                  "—"
+                ],
+                [
+                  "11th",
+                  "6",
+                  "3",
+                  "2"
+                ],
+                [
+                  "13th",
+                  "6",
+                  "4",
+                  "3"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Spells Known",
+          "entries": [
+            "You know three 1st-level Warlock spells of your choice, which must be from the Abjuration, Conjuration, or Necromancy schools. Whenever you gain a Fighter level, you can replace one of your known spells with another from those schools."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Spellcasting Ability",
+          "entries": [
+            "Intelligence is your spellcasting ability for your Warlock spells, as your power comes from esoteric study of death's rites. Your Spell Save DC is 8 + your Intelligence modifier + your Proficiency Bonus.",
+            {
+              "type": "abilityDc",
+              "name": "Spell",
+              "attributes": [
+                "int"
+              ]
+            },
+            {
+              "type": "abilityAttackMod",
+              "name": "Spell",
+              "attributes": [
+                "int"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grave Rites",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Grave Knight",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You have learned martial rites that let you call on death's small favors, fueled by a special pool of energy. You have a number of Grave Rites equal to your Proficiency Bonus. You regain all expended Grave Rites when you finish a Short or Long Rest.",
+        "You can expend these Rites to fuel the following features:",
+        {
+          "type": "entries",
+          "name": "Dread Smite",
+          "entries": [
+            "When you hit a creature with a melee weapon attack or Unarmed Strike, you can expend 1 Grave Rite to channel the {@spell inflict wounds} spell directly through the blow. The attack deals an extra {@damage 3d10} Necrotic damage. If you have spell slots of 2nd-level or higher, this extra damage increases by 1d10 for each slot level above 1st (e.g., {@damage 4d10} if your highest slot is 2nd-level)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Grave Step",
+          "entries": [
+            "As a Bonus Action, you can expend 1 Grave Rite to wrap yourself in the energies of the grave and teleport up to 30 feet to an unoccupied space you can see."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rigor Mortis",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Grave Knight",
+      "subclassSource": "ASRDR",
+      "level": 7,
+      "header": 2,
+      "entries": [
+        "Your connection to the grave hardens your physical form against harm. Whenever you roll Initiative or use your Second Wind feature, you gain Temporary Hit Points equal to your Fighter level + your Intelligence modifier."
+      ]
+    },
+    {
+      "name": "Grave Rebuke",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Grave Knight",
+      "subclassSource": "ASRDR",
+      "level": 10,
+      "header": 2,
+      "entries": [
+        "When a creature you can see damages you, you can use your Reaction and expend 1 Grave Rite to point your finger and surround them in ghostly flames. The creature must make a Dexterity saving throw against your Spell Save DC. It takes {@damage 2d10} Necrotic damage and {@damage 2d10} Fire damage on a failed save, or half as much damage on a successful one."
+      ]
+    },
+    {
+      "name": "Soul Siphon",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Grave Knight",
+      "subclassSource": "ASRDR",
+      "level": 15,
+      "header": 2,
+      "entries": [
+        "Your command over necrotic energies allows you to draw vitality from your foes. When you deal Necrotic damage to a creature with a Grave Knight feature or a spell, you can siphon their life force, regaining Hit Points equal to half the Necrotic damage dealt.",
+        "You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Avatar of Undeath",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Grave Knight",
+      "subclassSource": "ASRDR",
+      "level": 18,
+      "header": 2,
+      "entries": [
+        "As a Magic Action, you can become a conduit for the grave's power for 1 minute. For the duration, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You have Resistance to Necrotic and Poison damage.",
+            "You have Advantage on saving throws against being {@condition Frightened} or {@condition Paralyzed}.",
+            "Your melee weapon attacks deal an additional {@damage 2d6} Necrotic damage.",
+            "When you use your Grave Step feature, you can make one melee weapon attack against a target within your reach as part of that same Bonus Action."
+          ]
+        },
+        "Once you use this feature, you can't use it again until you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Entropy Domain",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Entropy",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "entries": [
+        "While most gods focus on creation or preservation, deities of Entropy represent the fundamental truth that all things must end. This domain includes Ao, the Overgod who stands above the pantheon, overseeing the cosmic balance and the eventual dissolution of cycles. To an Entropy cleric, chaos is not a lack of order, but the natural state to which the universe yearns to return. They are the heralds of the heat death of the universe, the rust on the blade, and the cold silence between stars. They do not necessarily seek to destroy; they simply ensure that what is meant to pass away does not linger.",
+        {
+          "type": "table",
+          "caption": "Entropy Domain Spells",
+          "colLabels": [
+            "Cleric Level",
+            "Prepared Spells"
+          ],
+          "colStyles": [
+            "col-3 text-center",
+            "col-9"
+          ],
+          "rows": [
+            [
+              "3rd",
+              "{@spell armor of agathys}, {@spell bane}, Magnify Gravity, {@spell ray of enfeeblement}"
+            ],
+            [
+              "5th",
+              "{@spell counterspell}, Erupting Earth"
+            ],
+            [
+              "7th",
+              "{@spell blight}, Gravity Sinkhole"
+            ],
+            [
+              "9th",
+              "{@spell antilife shell}, {@spell destructive wave}"
+            ]
+          ]
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Touch of the Void|Cleric||Entropy|ASRDR|3|ASRDR"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Channel Divinity: Entropic Collapse|Cleric||Entropy|ASRDR|3|ASRDR"
+        }
+      ]
+    },
+    {
+      "name": "Touch of the Void",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Entropy",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can accelerate the decay of magic and matter. When a creature you can see within 30 feet makes a D20 Test, you can use your Reaction to impose Disadvantage on that roll as you sap the energy from their effort.",
+        "You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. Additionally, whenever you deal damage with a Cleric cantrip, you can change the damage type to Necrotic or Force."
+      ]
+    },
+    {
+      "name": "Channel Divinity: Entropic Collapse",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Entropy",
+      "subclassSource": "ASRDR",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You can use your Channel Divinity to create a localized zone of absolute disorder. As a Magic Action, you present your holy symbol and designate a 15-foot cube centered on a point within 60 feet. The area becomes Difficult Terrain for 1 minute. While the zone persists, you gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Erosion of Will",
+          "entries": [
+            "Any creature that starts its turn in the zone or enters it for the first time on a turn must succeed on a Constitution Saving Throw against your Spell Save DC or take {@damage 2d6} Force damage and have its Speed halved until the start of its next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Energy Absorption",
+          "entries": [
+            "If a creature within the zone deals damage with a spell, you can use your Reaction to reduce that damage by an amount equal to your Cleric Level + Wisdom Modifier."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Potent Forecasting",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Entropy",
+      "subclassSource": "ASRDR",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "The entropic energies you wield begin to feed back into your own spells. You can add your Wisdom modifier to the damage you deal with any Cleric spell.",
+        "Furthermore, your Entropic Collapse now severs the ties of magical effects. When a creature fails its saving throw against your Entropic Collapse, one spell of 3rd level or lower currently affecting that creature ends immediately."
+      ]
+    },
+    {
+      "name": "Herald of the End",
+      "source": "ASRDR",
+      "page": 1,
+      "className": "Cleric",
+      "classSource": "PHB",
+      "subclassShortName": "Entropy",
+      "subclassSource": "ASRDR",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "You have become an avatar of the ultimate vacuum. You gain Resistance to Necrotic and Force damage, and you are immune to the Exhaustion condition.",
+        {
+          "type": "entries",
+          "name": "Singularity of Ao",
+          "entries": [
+            "You can cast the {@spell antimagic field} spell once per Long Rest without expending a spell slot. When you cast it using this feature, you can designate a number of creatures up to your Wisdom modifier; the field does not suppress their magical items or spells they cast.",
+            "Additionally, while this field is active, any creature that dies within it is reduced to fine gray dust, and can only be restored to life by a {@spell true resurrection} or {@spell wish} spell."
+          ]
+        }
+      ]
+    }
+  ],
+  "race": [
+    {
+      "name": "Revenant",
+      "source": "ASRDR",
+      "page": 1,
+      "size": [
+        "M",
+        "S"
+      ],
+      "speed": 30,
+      "creatureTypes": [
+        "undead"
+      ],
+      "darkvision": 60,
+      "entries": [
+        "A Revenant is a soul that has clawed its way back from the Shadowfell or the gates of the Fugue Plane to settle an unfinished score. Whether you were raised by a dark deity like The Raven Queen, fueled by the chaotic spite of Cyric, or kept alive by sheer force of will, your body is a vessel for singular purpose. You bear the scars of your first death—cold skin, pale eyes, or perhaps a visible wound that never heals—but your eyes burn with the terrifying light of a soul that refuses to depart.",
+        {
+          "type": "entries",
+          "name": "Creature Type",
+          "entries": [
+            "You are an Undead. You take damage by spells and magical effects that heal or restore life to Humanoids (such as {@spell cure wounds} or {@spell healing word})."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "You are Medium or Small (depending on your form in life)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your walking speed is 30 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Life Span",
+          "entries": [
+            "You do not age. You remain in your current state until your purpose is fulfilled, at which point you crumble to dust."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Darkvision",
+          "entries": [
+            "You have Darkvision with a range of 60 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Relentless Nature",
+          "entries": [
+            "You do not require air, food, drink, or sleep, and magic cannot put you to sleep. To gain the benefits of a Long Rest, you can spend 4 hours in an inactive, motionless state, during which you retain consciousness. You have advantage on saving throws against Exhaustion."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Vengeful Tracker",
+          "entries": [
+            "As a Bonus Action, you can designate one creature you can see or have a piece of (such as a lock of hair) as the target of your vengeance. For the next 24 hours, or until the target dies, you know the direction to the target as long as you are on the same plane of existence. Once per turn, when you hit that target with an attack, you deal extra Necrotic or Poison damage equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, regaining all uses on a Long Rest."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Vengeful Regeneration",
+          "entries": [
+            "Your body knits itself back together with supernatural speed. When you have fewer than half your hit point maximum, you can use a Bonus Action to expend one of your Hit Dice, rolling it and regaining double that number of hit points. You can use this trait a number of times equal to your Proficiency Bonus, regaining all uses when you finish a Long or Short Rest."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Deadly Tenacity",
+          "entries": [
+            "Your proximity to death grants you a terrifying edge. You gain the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "{@b Death Throes:} You have advantage on death saving throws.",
+                "{@b Unstoppable Strike:} Once per turn, when you miss with an attack roll, you can choose to take Necrotic damage equal to twice your Proficiency Bonus (this damage cannot be reduced or prevented). If you do, you can add {@dice 1d6} to your attack roll, potentially turning the miss into a hit."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reborn",
+      "source": "ASRDR",
+      "page": 1,
+      "size": [
+        "M",
+        "S"
+      ],
+      "speed": 30,
+      "creatureTypes": [
+        "humanoid",
+        "construct"
+      ],
+      "entries": [
+        "Death was not the end for you; you are a being of grafted flesh, alchemical fluids, or clockwork organs. You might remember bits and pieces of a previous life—a cold winter, a lover's face, the smell of ozone—but your current existence is defined by the strange power that keeps your patchwork form functioning.",
+        {
+          "type": "entries",
+          "name": "Creature Type",
+          "entries": [
+            "You are both a Humanoid and a Construct. You are affected by an effect if it targets either of these creature types."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "You are Medium or Small (choose when you gain this species)."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your walking speed is 30 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Deathless Nature",
+          "entries": [
+            "You have escaped the standard cycle of life and death. You gain the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "You have Advantage on saving throws against being Poisoned or Diseased.",
+                "You have Resistance to Poison damage.",
+                "You don't need to eat, drink, or breathe.",
+                "You have Advantage on Death Saving Throws."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ancestral Legacy",
+          "entries": [
+            "You retain a fragment of your past life's prowess. You gain proficiency in two skills of your choice."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Knowledge from a Past Life",
+          "entries": [
+            "When you make an ability check or attack roll and fail, you can call upon your faded memories to help. You can roll {@dice 1d6} and add it to the total, potentially turning a failure into a success. You can use this feature a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Synthetic Overdrive",
+          "entries": [
+            "Your patchwork body can be pushed beyond its biological limits. As a Bonus Action, you can enter an Overdrive state for 1 minute. While in this state:",
+            {
+              "type": "list",
+              "items": [
+                "Your walking speed increases by 10 feet.",
+                "When you take Bludgeoning, Piercing, or Slashing damage, you can use your Reaction to reduce the damage taken by an amount equal to your Proficiency Bonus."
+              ]
+            },
+            "Once you use this feature, you cannot do so again until you finish a Long Rest."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Restless Sentry",
+          "entries": [
+            "You do not sleep. To gain the benefits of a Long Rest, you enter a motionless state for 4 hours. In this state, you appear inert, but it doesn't render you {@condition Unconscious}, and you can see and hear as normal."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -114,9 +114,10 @@ export class StyleSwitcher {
 
 	constructor () {
 		if (typeof window === "undefined") return;
-		this._setActiveStyleTheme(StyleSwitcher.storage.getItem(StyleSwitcher._STORAGE_KEY_THEME) || StyleSwitcher._STYLE_THEME_AUTOMATIC);
-		this._setActiveStyleRollbox(StyleSwitcher.storage.getItem(StyleSwitcher._STORAGE_KEY_ROLLBOX) || StyleSwitcher._STYLE_ROLLBOX_DEFAULT);
-		this._setActiveWide(StyleSwitcher.storage.getItem(StyleSwitcher._STORAGE_KEY_WIDE) === "true");
+		// Force night mode permanently — no other theme is available
+		this._setActiveStyleTheme(StyleSwitcher._STYLE_THEME_NIGHT);
+		this._setActiveStyleRollbox(StyleSwitcher._STYLE_ROLLBOX_DEFAULT);
+		this._setActiveWide(false);
 	}
 
 	getSummary () {
@@ -143,13 +144,9 @@ export class StyleSwitcher {
 	}
 
 	_setActiveStyleTheme (style) {
-		this._styleTheme = style;
-		const styleResolved = this._getResolvedStyleTheme();
-
-		this._setActiveStyleThemeClasses(styleResolved);
-
-		StyleSwitcher.storage.setItem(StyleSwitcher._STORAGE_KEY_THEME, this._styleTheme);
-
+		// Always force night mode regardless of requested style
+		this._styleTheme = StyleSwitcher._STYLE_THEME_NIGHT;
+		this._setActiveStyleThemeClasses(StyleSwitcher._STYLE_THEME_NIGHT);
 		this._fnsOnChangeTheme.forEach(fn => fn());
 	}
 

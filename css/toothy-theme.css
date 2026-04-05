@@ -1,0 +1,186 @@
+/* Toothy's Truly Total Compendium — Custom Theme Overrides */
+
+/* ============================================================
+   Force body to deep black background
+   ============================================================ */
+html, body {
+	background-color: #111 !important;
+	color: #c8c8c8 !important;
+}
+
+/* ============================================================
+   Header — black with red brand accent on title
+   ============================================================ */
+.page__header {
+	background: #000 !important;
+	border-bottom: 2px solid #8b0000 !important;
+}
+
+.page__title {
+	color: #fff !important;
+}
+
+.page__title span {
+	color: #cc2222 !important;
+}
+
+.page__title::after {
+	color: #8b0000 !important;
+}
+
+.page__subtitle {
+	color: #aaa !important;
+}
+
+/* Add custom title to the right side of the header */
+.page__header .container::after {
+	content: "Ready Red Toothy's Compendium";
+	display: inline-block;
+	margin-left: auto;
+	color: #e04444;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-family: Arial, sans-serif;
+	align-self: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/* ============================================================
+   Navbar — black background, red active state
+   ============================================================ */
+#navigation, .page__nav {
+	background: #111 !important;
+	border-bottom: 1px solid #2a0000 !important;
+}
+
+.page__nav-inner > li.ve-active > a,
+.page__nav-inner > li.ve-active > a:focus,
+.page__nav-inner > li.ve-active > a:hover {
+	background-color: #1a0000 !important;
+	border-color: #8b0000 !important;
+	color: #fff !important;
+}
+
+.nav__link:hover,
+.ve-dropdown-toggle:hover {
+	color: #ff4444 !important;
+}
+
+.ve-dropdown-menu {
+	background: #1a1a1a !important;
+	border: 1px solid #3a0000 !important;
+}
+
+.ve-dropdown-menu li a:hover,
+.ve-dropdown-menu li > span:hover {
+	background: #2a0000 !important;
+	color: #ff6666 !important;
+}
+
+.ve-dropdown-divider {
+	border-top-color: #3a0000 !important;
+}
+
+/* ============================================================
+   Buttons — red primary, dark default
+   ============================================================ */
+.ve-btn-primary,
+a.ve-btn-primary {
+	background: #8b0000 !important;
+	border-color: #6b0000 !important;
+	color: #fff !important;
+}
+
+.ve-btn-primary:hover,
+a.ve-btn-primary:hover {
+	background: #a00000 !important;
+}
+
+.ve-btn-default {
+	background: #1e1e1e !important;
+	border-color: #3a0000 !important;
+	color: #ccc !important;
+}
+
+.ve-btn-default:hover {
+	background: #2a0000 !important;
+	color: #fff !important;
+}
+
+/* ============================================================
+   Links — red instead of blue
+   ============================================================ */
+a, a:visited {
+	color: #e05555 !important;
+}
+
+a:hover {
+	color: #ff7777 !important;
+}
+
+/* ============================================================
+   Filter / list rows — red highlight
+   ============================================================ */
+.lst__row:hover,
+.list-multi-selected .lst__row-inner:hover {
+	box-shadow: inset 0 0 0 5000px rgba(139, 0, 0, 0.18) !important;
+}
+
+.lst__row.ve-active,
+.lst__row.lst__row--active {
+	box-shadow: inset 0 0 0 5000px rgba(139, 0, 0, 0.35) !important;
+}
+
+/* ============================================================
+   Stat block borders — dark red instead of gold
+   ============================================================ */
+.rd__b--1 {
+	border-color: #5a0000 !important;
+}
+
+/* ============================================================
+   Home/index button panels (in case index is ever visited)
+   ============================================================ */
+.home__btn-page {
+	background: #1a1a1a !important;
+	border-color: #3a0000 !important;
+	color: #ccc !important;
+}
+
+.home__btn-page:hover {
+	background: #2a0000 !important;
+	color: #fff !important;
+}
+
+/* ============================================================
+   Ensure content panels are dark
+   ============================================================ */
+.container, main.container, .rd__b, .rd__stat-box {
+	background: transparent;
+}
+
+.veapp__list {
+	background: #161616 !important;
+}
+
+/* ============================================================
+   Scrollbars — custom dark
+   ============================================================ */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #5a0000;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #8b0000;
+}

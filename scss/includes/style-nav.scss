@@ -7,7 +7,7 @@
 			padding: 0 15px 1px;
 			box-shadow: 0 1px 4px vars.$rgb-shadow-grey--dark;
 			color: #fff;
-			background-color: rgb(0 107 196);
+			background-color: #0f0f0f;
 			min-height: 0;
 			flex-shrink: 0;
 		}
@@ -117,7 +117,7 @@
 			top: 0;
 			bottom: 0;
 			left: 0;
-			background: vars.$rgb-active-blue;
+			background: #8b0000;
 
 			&--error {
 				background: vars.$rgb-active-red;
@@ -146,8 +146,8 @@
 	.ve-night-mode {
 		.page__ {
 			&header {
-				color: vars-night.$rgb-font--night;
-				background: vars.$rgb-off-black;
+				color: #fff;
+				background: #000;
 			}
 
 			&title--home {
