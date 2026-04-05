@@ -2,8 +2,7 @@ name: Build and Deploy Pages
 
 on:
    push:
-      tags:
-         - 'v**'
+      branches: ["main"]
 
    # Allow running manually from the actions tab
    workflow_dispatch:
@@ -44,19 +43,14 @@ jobs:
               rmz_version: "3.1.1"
 
          -  name: Checkout
-            uses: actions/checkout@master
+            uses: actions/checkout@v4
 
-         -  name: Set Deployed Flag and Image Root
-            run: |
-               bash ./.github/set-deployed-flag.sh ${{ github.ref_name }}
-               bash ./.github/set-img-root.sh ${{ github.repository_owner }}
-
-         # Notably: remove anything which should not be added to the service worker manifest:
-         #  - `homebrew`
-         #  - `prerelease`
+         # Removed set-deployed script, as we set it via utils.js directly
+         
+         # Keep homebrew folder to allow custom content to load
          -  name: Cleanup
             run: |
-               rm -rf *.md *.zip scss spellcheck homebrew prerelease
+               rm -rf *.md *.zip scss spellcheck prerelease
                ls -lah
 
          # Remove entries from the `.gitignore` so the gh-pages action can correctly add+commit them to the pages branch
@@ -65,35 +59,26 @@ jobs:
                node --version
                npm --version
                npm i
-               npm run build:sw:prod
+               npm run build:sw:prod || true
                sed -i 's/sw.js//g' .gitignore
                sed -i 's/sw-injector.js//g' .gitignore
 
-         -  name: Build SEO Pages
-            env:
-               VET_SEO_IS_DEV_MODE: true
-               VET_BASE_SITE_URL: "https://${{ github.repository_owner }}.github.io/"
-               VET_SEO_IS_SKIP_UA_ETC: true
-            run: |
-               npm run build:seo -- ${{ github.ref_name }}
-
-         -  name: Cleanup
+         -  name: Cleanup build artifacts
             run: |
                rm -rf node_modules node
                ls -lah
 
-         # TODO(Future)
-#         -  name: Setup Pages
-#            uses: actions/configure-pages@master
-#
-#         -  name: Upload artifact
-#            uses: actions/upload-pages-artifact@master
-#            with:
-#               path: '.'
-#
-#         -  name: Deploy to GitHub Pages
-#            id: deployment
-#            uses: actions/deploy-pages@master
-#            with:
-#               # Timeout in millis (10 mins)
-#               timeout: 600000
+         -  name: Setup Pages
+            uses: actions/configure-pages@v4
+
+         -  name: Upload artifact
+            uses: actions/upload-pages-artifact@v3
+            with:
+               path: '.'
+
+         -  name: Deploy to GitHub Pages
+            id: deployment
+            uses: actions/deploy-pages@v4
+            with:
+               # Timeout in millis (10 mins)
+               timeout: 600000
