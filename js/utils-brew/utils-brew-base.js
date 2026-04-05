@@ -326,7 +326,7 @@ export class BrewUtil2Base {
 
 	async _pGetBrew_pGetLocalBrew ({lockToken} = {}) {
 		if (this._cache_brewsLocal) return this._cache_brewsLocal;
-		if (globalThis.IS_VTT || IS_DEPLOYED || typeof window === "undefined") return this._cache_brewsLocal = [];
+		if (globalThis.IS_VTT || typeof window === "undefined") return this._cache_brewsLocal = [];
 
 		await BrewDocContentMigrator.pInit();
 

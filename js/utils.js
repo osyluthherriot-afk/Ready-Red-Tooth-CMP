@@ -1,7 +1,7 @@
 "use strict";
 
 // in deployment, `IS_DEPLOYED = "<version number>";` should be set below.
-globalThis.IS_DEPLOYED = undefined;
+globalThis.IS_DEPLOYED = "2.25.4";
 globalThis.VERSION_NUMBER = /* 5ETOOLS_VERSION__OPEN */"2.25.4"/* 5ETOOLS_VERSION__CLOSE */;
 globalThis.DEPLOYED_IMG_ROOT = undefined;
 // for the roll20 script to set
